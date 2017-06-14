@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/charlyraffellini/docker-swarm-frontend.svg?branch=master)](https://travis-ci.org/charlyraffellini/docker-swarm-frontend)
+[![Build Status](https://travis-ci.org/charlyraffellini/docker-swarm-backend.svg?branch=master)](https://travis-ci.org/charlyraffellini/docker-swarm-backend)
 
-# docker-swarm-frontend
 # docker-swarm-backend
