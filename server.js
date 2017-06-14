@@ -1,5 +1,4 @@
 const http = require('http');
-const sleep = require('sleep');
 const express = require('express');
 const rp = require("request-promise");
 
@@ -14,8 +13,6 @@ app.get('/customer/:id', function (req, res) {
     first: "Bob",
     last: "Doe",
   }
-  // each customer lookup will take 10ms of CPU time to build the result, not including database lookup time.
-  sleep.msleep(10);
   res.json(customer);
 });
 
