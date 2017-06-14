@@ -8,7 +8,7 @@ node_js:
 services:
   - docker
 install:
-  - apt-get install node-gyp build-essential g++
+  - sudo apt-get install node-gyp build-essential g++
   - npm install
 after_success:
   - export V_MAJOR=0
