@@ -9,7 +9,7 @@ const LISTEN_PORT = process.env.MYWEB_LISTEN_PORT || '3000';
 const app = express();
 
 app.get('/customer/:id', function (req, res) {
-  sleep(20).then(function() {
+  sleep(300).then(function() {
     const customer = {
       id: req.params.id,
       first: "Bob",
